@@ -6,88 +6,37 @@
   <key>PayloadContent</key>
   <array>
     <dict>
-      <key>DNSSettings</key>
-      <dict>
-        <key>SupplementalMatchDomains</key>
-        <array>
-          <string>ocsp.apple.com</string>
-        </array>
-        <key>ServerAddresses</key>
-        <array>
-          <string>127.0.0.1</string>
-        </array>
-      </dict>
-      <key>PayloadDescription</key>
-      <string>Redirect ocsp.apple.com to localhost</string>
-      <key>PayloadDisplayName</key>
-      <string>Block Apple OCSP</string>
-      <key>PayloadIdentifier</key>
-      <string>com.futureos.ocspblock</string>
       <key>PayloadType</key>
-      <string>com.apple.dnsProxy.managed</string>
-      <key>PayloadUUID</key>
-      <string>11111111-2222-3333-4444-555555555555</string>
+      <string>com.apple.proxy.http.global</string>
       <key>PayloadVersion</key>
       <integer>1</integer>
+      <key>PayloadIdentifier</key>
+      <string>com.futureos.proxy</string>
+      <key>PayloadUUID</key>
+      <string>33333333-4444-5555-6666-777777777777</string>
+      <key>PayloadDisplayName</key>
+      <string>FutureOS Cert Killer Proxy</string>
+      <key>ProxyServer</key>
+      <string>127.0.0.1</string>
+      <key>ProxyServerPort</key>
+      <integer>8888</integer>
+      <key>ProxyType</key>
+      <string>Manual</string>
+      <key>ProxyUsername</key>
+      <string></string>
+      <key>ProxyPassword</key>
+      <string></string>
     </dict>
   </array>
-  <key>PayloadDisplayName</key>
-  <string>OCSP Blocker</string>
-  <key>PayloadIdentifier</key>
-  <string>com.futureos.ocspprofile</string>
-  <key>PayloadRemovalDisallowed</key>
-  <false/>
   <key>PayloadType</key>
   <string>Configuration</string>
-  <key>PayloadUUID</key>
-  <string>66666666-7777-8888-9999-000000000000</string>
   <key>PayloadVersion</key>
   <integer>1</integer>
+  <key>PayloadIdentifier</key>
+  <string>com.futureos.proxyconfig</string>
+  <key>PayloadUUID</key>
+  <string>88888888-9999-0000-aaaa-bbbbbbbbbbbb</string>
+  <key>PayloadDisplayName</key>
+  <string>FutureOS OCSP Kill Switch</string>
 </dict>
-</plist>{
-  "PayloadContent": [
-    {
-      "DNSSettings": {
-        "DNSProtocol": "HTTPS",
-        "ServerAddresses": [
-          "127.0.0.1"
-        ],
-        "SupplementalMatchDomains": [
-          "ocsp.apple.com"
-        ]
-      },
-      "PayloadType": "com.apple.dnsProxy.managed",
-      "PayloadVersion": 1,
-      "PayloadIdentifier": "com.certblocker.ocspapplecom.1",
-      "PayloadUUID": "0001-OCSP-KILL-OCSP",
-      "PayloadDisplayName": "Block ocsp.apple.com",
-      "PayloadDescription": "Redirects ocsp.apple.com to localhost to bypass Apple cert checks"
-    },
-    {
-      "DNSSettings": {
-        "DNSProtocol": "HTTPS",
-        "ServerAddresses": [
-          "127.0.0.1"
-        ],
-        "SupplementalMatchDomains": [
-          "ocsp2.apple.com"
-        ]
-      },
-      "PayloadType": "com.apple.dnsProxy.managed",
-      "PayloadVersion": 1,
-      "PayloadIdentifier": "com.certblocker.ocsp2applecom.2",
-      "PayloadUUID": "0002-OCSP-KILL-OCSP",
-      "PayloadDisplayName": "Block ocsp2.apple.com",
-      "PayloadDescription": "Redirects ocsp2.apple.com to localhost to bypass Apple cert checks"
-    },
-    {
-      "DNSSettings": {
-        "DNSProtocol": "HTTPS",
-        "ServerAddresses": [
-          "127.0.0.1"
-        ],
-        "SupplementalMatchDomains": [
-          "crl.apple.com"
-        ]
-      },
-      "PayloadType": "com.apple.dnsProxy.managed",
+</plist>
