@@ -1,0 +1,97 @@
+{
+  "PayloadContent": [
+    {
+      "DNSSettings": {
+        "DNSProtocol": "HTTPS",
+        "ServerAddresses": [
+          "127.0.0.1"
+        ],
+        "SupplementalMatchDomains": [
+          "ocsp.apple.com"
+        ]
+      },
+      "PayloadType": "com.apple.dnsProxy.managed",
+      "PayloadVersion": 1,
+      "PayloadIdentifier": "com.certblocker.ocspapplecom.1",
+      "PayloadUUID": "0001-OCSP-KILL-OCSP",
+      "PayloadDisplayName": "Block ocsp.apple.com",
+      "PayloadDescription": "Redirects ocsp.apple.com to localhost to bypass Apple cert checks"
+    },
+    {
+      "DNSSettings": {
+        "DNSProtocol": "HTTPS",
+        "ServerAddresses": [
+          "127.0.0.1"
+        ],
+        "SupplementalMatchDomains": [
+          "ocsp2.apple.com"
+        ]
+      },
+      "PayloadType": "com.apple.dnsProxy.managed",
+      "PayloadVersion": 1,
+      "PayloadIdentifier": "com.certblocker.ocsp2applecom.2",
+      "PayloadUUID": "0002-OCSP-KILL-OCSP",
+      "PayloadDisplayName": "Block ocsp2.apple.com",
+      "PayloadDescription": "Redirects ocsp2.apple.com to localhost to bypass Apple cert checks"
+    },
+    {
+      "DNSSettings": {
+        "DNSProtocol": "HTTPS",
+        "ServerAddresses": [
+          "127.0.0.1"
+        ],
+        "SupplementalMatchDomains": [
+          "crl.apple.com"
+        ]
+      },
+      "PayloadType": "com.apple.dnsProxy.managed",
+      "PayloadVersion": 1,
+      "PayloadIdentifier": "com.certblocker.crlapplecom.3",
+      "PayloadUUID": "0003-OCSP-KILL-CRL.",
+      "PayloadDisplayName": "Block crl.apple.com",
+      "PayloadDescription": "Redirects crl.apple.com to localhost to bypass Apple cert checks"
+    },
+    {
+      "DNSSettings": {
+        "DNSProtocol": "HTTPS",
+        "ServerAddresses": [
+          "127.0.0.1"
+        ],
+        "SupplementalMatchDomains": [
+          "gdmf.apple.com"
+        ]
+      },
+      "PayloadType": "com.apple.dnsProxy.managed",
+      "PayloadVersion": 1,
+      "PayloadIdentifier": "com.certblocker.gdmfapplecom.4",
+      "PayloadUUID": "0004-OCSP-KILL-GDMF",
+      "PayloadDisplayName": "Block gdmf.apple.com",
+      "PayloadDescription": "Redirects gdmf.apple.com to localhost to bypass Apple cert checks"
+    },
+    {
+      "DNSSettings": {
+        "DNSProtocol": "HTTPS",
+        "ServerAddresses": [
+          "127.0.0.1"
+        ],
+        "SupplementalMatchDomains": [
+          "valid.apple.com"
+        ]
+      },
+      "PayloadType": "com.apple.dnsProxy.managed",
+      "PayloadVersion": 1,
+      "PayloadIdentifier": "com.certblocker.validapplecom.5",
+      "PayloadUUID": "0005-OCSP-KILL-VALI",
+      "PayloadDisplayName": "Block valid.apple.com",
+      "PayloadDescription": "Redirects valid.apple.com to localhost to bypass Apple cert checks"
+    }
+  ],
+  "PayloadType": "Configuration",
+  "PayloadVersion": 1,
+  "PayloadIdentifier": "com.certblocker.full",
+  "PayloadUUID": "APPLE-CERT-NUKER-420",
+  "PayloadDisplayName": "✂️ Apple Cert Check Blocker",
+  "PayloadDescription": "Disables all major Apple cert validation servers by redirecting them to 127.0.0.1.",
+  "PayloadOrganization": "🪓 AntiOCSP Alliance",
+  "PayloadRemovalDisallowed": false
+}
