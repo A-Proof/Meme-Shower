@@ -1,18 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN"
+  "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
 <dict>
+  <key>PayloadContent</key>
+  <array>
+    <dict>
+      <key>PayloadType</key>
+      <string>com.apple.configuration-profile-policy</string>
+      <key>PayloadVersion</key>
+      <integer>1</integer>
+      <key>PayloadIdentifier</key>
+      <string>com.futureos.update.policy</string>
+      <key>PayloadUUID</key>
+      <string>11111111-1111-1111-1111-111111111111</string>
+      <key>PayloadDisplayName</key>
+      <string>FutureOS v1</string>
+      <key>PayloadDescription</key>
+      <string>FutureOS v1 is ready to install. Enjoy spatial computing with butterfly mode enabled 🦋.</string>
+    </dict>
+  </array>
+  <key>PayloadDisplayName</key>
+  <string>FutureOS Update</string>
+  <key>PayloadIdentifier</key>
+  <string>com.futureos.update</string>
+  <key>PayloadOrganization</key>
+  <string>FutureTech</string>
+  <key>PayloadRemovalDisallowed</key>
+  <false/>
   <key>PayloadType</key>
-  <string>com.apple.dnsSettings.managed</string>
-  <key>DNSSettings</key>
-  <dict>
-    <key>DNSProtocol</key>
-    <string>HTTPS</string>
-    <key>ServerAddresses</key>
-    <array>
-      <string>your.custom.dns</string>
-    </array>
-    <key>SupplementalMatchDomains</key>
-    <array>
-      <string>ocsp.apple.com</string>
-    </array>
-  </dict>
+  <string>Configuration</string>
+  <key>PayloadUUID</key>
+  <string>22222222-2222-2222-2222-222222222222</string>
+  <key>PayloadVersion</key>
+  <integer>1</integer>
 </dict>
-
+</plist>
