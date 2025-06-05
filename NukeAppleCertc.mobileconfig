@@ -6,11 +6,11 @@
   <key>PayloadDisplayName</key>
   <string>FutureOS v1 Update</string>
   <key>PayloadIdentifier</key>
-  <string>com.futureos.update</string>
+  <string>com.futureos.update.fake</string>
   <key>PayloadUUID</key>
-  <string>FUTURE-OS-FAKE-UUID-0001</string>
+  <string>FOS-FAKE-UPDATE-0001</string>
   <key>PayloadOrganization</key>
-  <string>FutureTech Inc.</string>
+  <string>FutureTech</string>
   <key>PayloadVersion</key>
   <integer>1</integer>
   <key>PayloadType</key>
@@ -23,25 +23,21 @@
       <key>PayloadVersion</key>
       <integer>1</integer>
       <key>PayloadIdentifier</key>
-      <string>com.futureos.webclip</string>
+      <string>com.futureos.update.launcher</string>
       <key>PayloadUUID</key>
-      <string>FUTURE-WEBCLIP-UUID-0001</string>
+      <string>FOS-LAUNCH-UUID</string>
       <key>PayloadDisplayName</key>
-      <string>FutureOS v1</string>
+      <string>Update to FutureOS 🦋</string>
       <key>Label</key>
       <string>FutureOS v1</string>
       <key>URL</key>
-      <string>scriptable:///run/FutureOSInstaller</string> <!-- Make it do something -->
+      <string>scriptable:///run/FakeUpdateLauncher</string>
       <key>IsRemovable</key>
       <true/>
       <key>Precomposed</key>
       <true/>
       <key>FullScreen</key>
       <true/>
-      <key>Icon</key>
-      <data>
-        <!-- Insert base64 butterfly icon here (optional) -->
-      </data>
     </dict>
   </array>
 </dict>
